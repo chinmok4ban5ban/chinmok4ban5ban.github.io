@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    width: 100%;
+    overflow : hidden;
+}
+
+/* 머리 */
+#header {
+    height: 70px;
+    width : 100%;
+    padding-left: 25%;
+}
+
+#box1 {
+    margin-right: auto;
+    float: left;
+    margin : 1%;
+    text-align: center;
+}
+
+#box2 {
+    float: left;
+    text-align: center;
+    padding : 15px;
+    margin : 1%;
+}
+
+#input_box {
+    float: left;
+    width : 100%;
+}
+
+#search {
+    width: 480px;
+    height: 30px;
+    border: solid 4px #3050B0;
+}
+
+#search-box {
+    border: solid 2px black;
+}
+
+/* 메뉴바 */
+li {
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.menu {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+    padding : 0px;
+}
+
+.menu > li {
+    width: 25%;
+    float: left;
+    margin : 0px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #3050B0;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration:none;
+    font-size:14px;
+    padding:0;
+    margin:0;
+}
+
+/* 몸통 */
+#content {
+    float : left;
+    width: 55%;
+    height: 625px;
+    padding-right : 10%;
+    padding-left: 10%;
+}
+
+#intro_box {
+    height: 130px;
+    border-bottom: solid 2px #3050B0;
+    padding : 0px;
+    overflow: hidden;
+}
+
+#img1 {
+    margin-top : 5%;
+    margin-left : 10%;
+    float : left;
+    width : 17%;
+    height : 55%;
+}
+
+#intro {
+    float: left;
+    text-align: center;
+    width : 70%;
+    padding : 0px;
+    margin-top: 5%;
+}
+
+#intro1 {
+    float: left;
+    text-align: center;
+    font-size: 13px;
+    width: 80%;
+    height: 30%;
+    margin-top: 5%;
+}
+
+
+#intro2 {
+    float: left;
+    font-size: 13px;
+}
+
+/* 로그인 */
+#content2 {
+    float : left;
+    width: 25%;
+    height: 625px;
+
+}
+
+#login_box {
+    width: 75%;
+    height: 27%;
+    border : solid 2px #3050B0;
+    float : right;
+    margin-right: 20%;
+    margin-top: 20%;
+    overflow : hidden;
+}
+
+#login_text {
+    font-size: 17px;
+    font-weight: bold;
+    color: #3050B0;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+#id {
+    margin-left: 14%;
+    border : solid 2px #3050B0;
+    border-radius: 5px;
+    width: 70%;
+    height: 25px;
+}
+
+#password {
+    margin-top: 5%;
+    margin-left: 14%;
+    border : solid 2px #3050B0;
+    border-radius: 5px;
+    width: 70%;
+    height: 25px;
+}
+
+/* 글쓰기 버튼 */
+#but_box {
+    height: 5%;
+    margin: 5px;
+}
+
+#write_button {
+    text-align: center;
+    text-decoration: none;
+    background : #fff;
+    border : solid 1px  #3050B0;
+    color: #3050B0;
+    width: 80px;
+    height: 25px;
+    float: right;
+    margin-right: 3%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+/* 글 목록 */
+table, td, th {
+    text-align: center;
+    border-top : 1px solid black;
+    border-collapse : collapse;
+    font-size: 15px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}

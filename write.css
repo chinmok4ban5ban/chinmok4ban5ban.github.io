@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    width: 100%;
+    overflow : hidden;
+}
+
+/* 머리 */
+#header {
+    height: 70px;
+    width : 100%;
+    padding-left: 25%;
+}
+
+#box1 {
+    margin-right: auto;
+    float: left;
+    margin : 1%;
+    text-align: center;
+}
+
+#box2 {
+    float: left;
+    text-align: center;
+    padding : 15px;
+    margin : 1%;
+}
+
+#input_box {
+    float: left;
+    width : 100%;
+}
+
+#search {
+    width: 480px;
+    height: 30px;
+    border: solid 4px #3050B0;
+}
+
+#search-box {
+    border: solid 2px black;
+}
+
+/* 메뉴바 */
+li {
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.menu {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+    padding : 0px;
+}
+
+.menu > li {
+    width: 25%;
+    float: left;
+    margin : 0px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #3050B0;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration:none;
+    font-size:14px;
+    padding:0;
+    margin:0;
+}
+
+/* 본문 */
+#content {
+    width: 60%;
+    height: 625px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sub_title {
+    width: 100%;
+    height: 45px;
+    border-bottom: solid 2px #3050B0;
+}
+
+#sub_title > h2 {
+    color: #3050B0;
+}
+
+/* 글쓰기 부분 */
+#write_box {
+    width: 96%;
+    height: 580px;
+    padding: 2%;
+    border-bottom: solid 1px black;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    text-align: center;
+}
+
+#write {
+    padding : 5px;
+    border: none;
+    width : 90%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#name {
+    width: 28%;
+    text-align: left;
+}
+
+#password {
+    text-align: left;
+}
+
+#name_in {
+    width: 85%;
+    height: 95%;
+    border: solid 1px gray;
+    border-radius: 3px;
+}
+
+#password_in {
+    width: 35%;
+    height: 95%;
+    border: solid 1px gray;
+    border-radius: 3px;
+}
+
+#genre {
+    width: 15%;
+}
+
+#choice {
+    text-align: center;
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+#title_in {
+    float: left;
+    width: 65%;
+    height: 100%;
+    border: solid 1px gray;
+    border-radius: 3px;
+}
+
+#text {
+    width: 100%;
+    height: 95%;
+    font-size: 15px;
+}
+
+#X {
+    float : right;
+    width: 90px;
+    height: 40px;
+    background: #afafaf;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#O {
+    float: right;
+    width: 90px;
+    height: 40px;
+    background: #5e76bf;
+    color: #fff;
+    margin-left: 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

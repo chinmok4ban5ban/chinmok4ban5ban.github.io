@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>4반 5반 게시판</title>
+        <link href="index.css" rel="stylesheet" type="text/css">
+        <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div id="box1">
+                <h3>4반 5반 게시판</h3>
+            </div>
+
+            <div id="box2">
+                <div id="input_box">    
+                   <input id="search" type="text">
+                </div>
+            </div>            
+        </div>
+
+        <div>
+            <ul class="menu">
+                <li><a href="#" id="ch">일상</a></li>
+                <li><a href="#" id="ch">지식</a></li>
+                <li><a href="#" id="ch">공부</a></li>
+                <li><a href="#" id="ch">게임</a></li>
+              </ul>
+        </div>
+
+        <div id="content">
+            <div id="intro_box">
+                <img id="img1" alt="O W O" src="img1.png">
+                <div id="intro">
+                    <p id="intro1">4반과 5반의 친목을 위한 게시판 사이트입니다.</p>
+                    <p id="intro2">서버 : 김세민 <br>
+                        프론트 : 고현주 <br>
+                        백엔드 : 조준범
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div id="write_but" onclick="location.href='./write.html'">
+                    <a href="#" id="write_button">글 쓰기</a>
+                </div>
+
+                <table style="width:95%">
+                    <tr style="height: 40px">
+                      <th style="width:5%">번호</th>
+                      <th style="width:53%">제목</th>
+                      <th style="width:12%">글쓴이</th>
+                      <th style="width:12%">작성일</th>
+                      <th style="width:9%">조회</th>
+                      <th style="width:9%">추천</th>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td onclick="location.href='./post.html'">조준범 바보 ㅋㅋ</td>
+                      <td>김세민</td>
+                      <td>08/23</td>
+                      <td>2006</td>
+                      <td>315</td>
+                    </tr>
+                  </table>
+            </div>
+        </div>
+
+        <div id="content2">
+            <div id="login_box">
+                <p id="login_text">로그인 해주세요</p>
+                <input id="id" type="text" value="아이디">
+                <input id="password" type="text" value="비밀번호" onfocus=""; type="password";>
+            </div>
+        </div>
+    </body>
+</html>

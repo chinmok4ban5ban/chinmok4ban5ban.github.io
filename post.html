@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>4반 5반 게시판</title>
+        <link href="post.css" rel="stylesheet" type="text/css">
+        <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div id="box0">
+                <div id="box1">
+                    <h3>4반 5반 게시판</h3>
+                </div>
+
+                <div id="box2">
+                    <div id="input_box">    
+                        <input id="search" type="text">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="nav">
+            <div id="navbar">
+                <a href="" id="bar">일상</a>
+                <a href="" id="bar">지식</a>
+                <a href="" id="bar">공부</a>
+            </div>
+        </div>
+        <div id="content">
+            <div id="subtopic">
+                <h3 id="st">4반 5반 게시판</h3>
+            </div>
+            <div id="post_box">
+                <div id="detail">
+                    <h4 id="to">제목 ㅋㅋ</h4>
+                    <span id="de">작성자 ㅋㅋ</span>
+                    <span id="de">작성 날짜 ㅋㅋ</span>
+                    <span id="read_cnt">조회 2006</span>
+                    <span id="recommend">추천 </span>
+                    <span id="recommend1">0</span>
+                </div>
+                <div>
+                    <div id="main_box">
+                        <p id="main_text">시험 때려치고 싶농 ㅋㅋ</p>
+                    </div>
+                    
+                    <div id="btn_box">
+                        <input type="button" id="up" onclick="plus()">
+                        <input type="button" id="down" onclick="minus()">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        var count=0;
+        function plus(){
+            count=count+1;
+            document.querySelector("#recommend1").innerText=count;
+        }
+        function minus(){
+            count=count-1;
+            document.querySelector("#recommend1").innerText=count;
+        }
+    </script>
+</html>

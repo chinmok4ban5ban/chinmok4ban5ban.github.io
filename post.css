@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+}
+
+/* 머리 */
+#header {
+    height: 70px;
+    width : 100%;
+    text-align: center;
+}
+
+#box0 {
+    margin: auto;
+    height: 70px;
+    width: 50%;
+}
+
+#box1 {
+    height: 70px;
+    width : 30%;
+    text-align: center;
+    float: left;
+}
+
+#box2 {
+    text-align: center;
+    height: 70px;
+    width: 69%;
+    float: left;
+
+}
+
+#input_box {
+    float: left;
+    width : 100%;
+    padding-top: 17px;
+    padding-bottom: 20px;
+}
+
+#search {
+    width: 480px;
+    height: 30px;
+    border: solid 4px #3050B0;
+}
+
+/* 메뉴바 */
+#nav {
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 100%;
+    background-color: #3050B0;
+    text-align: center;
+}
+
+#navbar {
+    width: 17%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bar {
+    text-decoration: none;
+    color: cornsilk;
+    text-align: center;
+    padding: 6px 25px 6px 25px;
+    font-size: 18px;
+    float : left;
+}
+
+/* 몸통 */
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 625px;
+}
+
+#subtopic {
+    padding-bottom: 0px;
+    height: 50px;
+    border-bottom : solid 2px #6568d7;
+}
+
+#detail {
+    border-bottom : solid 1px darkgrey;
+    padding-left: 10px;
+    padding-bottom : 20px;
+}
+
+#to {
+    margin-bottom: 0px;
+}
+
+#st {
+    margin-top: 3%;
+    margin-bottom: -13%;
+    color : #6568d7
+}
+
+#de {
+    font-size: 8px;
+    color: darkgrey;
+}
+
+#read_cnt {
+    margin-left: 75%;
+    font-size: 13px;
+}
+
+#recommend {
+    font-size: 13px;
+}
+
+#main_box {
+    padding-left: 10px;
+    height: 250px;
+}
+
+#main_text {
+    font-size: 14px;
+}
+
+#btn_box {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 25%;
+    height: 80px;
+    padding: 30px;
+    border : solid 1.5px darkgrey; 
+}
+
+#up {
+    background: url("/up.png") no-repeat;
+    width: 80px;
+    height: 80px;
+    margin-right: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border : none;
+    cursor: pointer;
+}
+
+#down {
+    background: url("/down.png") no-repeat;
+    width: 80px;
+    height: 80px;
+    margin-top: auto;
+    margin-bottom: auto;   
+    border : none;
+    cursor: pointer;
+}

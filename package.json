@@ -1,0 +1,24 @@
+{ 
+  "homepage": "https://chinmok4ban5ban.github.io/chinmok4ban5ban.github.io",
+  "name": "jinlo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "gh-pages": "^6.1.0",
+    "http": "^0.0.1-security",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}

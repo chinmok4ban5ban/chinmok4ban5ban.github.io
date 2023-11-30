@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>4반 5반 게시판</title>
+        <link href="write.css" rel="stylesheet" type="text/css">
+        <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div id="box1">
+                <h3>4반 5반 게시판</h3>
+            </div>
+
+            <div id="box2">
+                <div id="input_box">    
+                   <input id="search" type="text">
+                </div>
+            </div>            
+        </div>
+
+        <div>
+            <ul class="menu">
+                <li><a href="#" id="ch">일상</a></li>
+                <li><a href="#" id="ch">지식</a></li>
+                <li><a href="#" id="ch">공부</a></li>
+                <li><a href="#" id="ch">게임</a></li>
+              </ul>
+        </div>
+    <body>
+        <div id="content">
+            <div id="sub_title">
+                <h2>봉담고 204, 205 게시판</h2>
+            </div>
+            
+            <form id="writeForm" action="/submit" method="post">
+                <div id="write_box">
+                    <table id="write">
+                        <tr>
+                            <td colspan="2" id="name"><input id="name_in" type="text" placeholder="닉네임"></td>
+                            <td colspan="2" id="password"><input id="password_in" type="password" placeholder="비밀번호"></td>
+                        </tr>
+                        <tr>
+                            <td id="genre">
+                                <select id="choice">
+                                    <option>일상</option>
+                                    <option>지식</option>
+                                    <option>공부</option>
+                                    <option>게임</option>
+                                </select>
+                            </td>
+                            <td colspan="3">
+                                <input id="title_in" type="text" placeholder="제목을 입력하세요." maxlength=20>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" height=400>
+                                <textarea id="text" placeholder="내용을 입력하세요."></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <button type="submit" id="O" onClick="location.href='./index.html'">등록</button>
+                                <button id="X" onClick="location.href='./index.html'">취소</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>
